@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Scheduling System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Job Scheduling System</h1>
+        <div class="input-area">
+            <input type="text" id="jobName" placeholder="Enter Job Name">
+            <input type="number" id="jobPriority" placeholder="Enter Job Priority" min="1">
+            <button id="addJob">Add Job</button>
+        </div>
+        <div class="job-list">
+            <h2>Scheduled Jobs</h2>
+            <ul id="jobQueue"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
